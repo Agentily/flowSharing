@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Business_Unit__c</members>
+        <members>Met__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Met__c.Business_Unit__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Business_Unit__c</members>
+        <members>Met__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Met_BU_Sharing</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>Met_Access</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Met__c.BU_Read__c</members>
+        <name>SharingReason</name>
+    </types>
+    <version>66.0</version>
+</Package>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Unit__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>Setting or changing this shares the record with the BU's Read group and removes the previous BU's share.</description>
+    <label>Business Unit</label>
+    <referenceTo>Business_Unit__c</referenceTo>
+    <relationshipLabel>Mets</relationshipLabel>
+    <relationshipName>Mets</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
